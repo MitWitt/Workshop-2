@@ -1,4 +1,4 @@
-document.write("<strong>Tämä tulee JavaScriptistä ja on lihavoitua tekstiä</strong><cite> ja tämä teksti on kursivoituna. Katso alla huikea kuva!</cite>")
+document.write("<strong>Tämä tulee JavaScriptistä ja on lihavoitua tekstiä</strong><cite> ja tämä teksti on kursivoituna. Katso alla huikea kuva!</cite><br>")
 
 var images =[
     "http://farm4.staticflickr.com/3691/11268502654_f28f05966c_m.jpg",

@@ -1,4 +1,4 @@
-window.onload = function isFirefox() {
+/*window.onload = function isFirefox() {
     return /Firefox/.test(navigator.userAgent);
 }
 
@@ -8,4 +8,10 @@ if (!isFirefox()) {
     if (userWantsToOpenMozilla) {
         window.open('http://www.mozilla.org', '_blank');
     }
+}
+*/
+
+let selain = navigator.userAgent
+if (selain.indexOf("Mozzilla") >= 0){
+    location.href = "http://www.mozilla.org"
 }
